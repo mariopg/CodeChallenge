@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "CodeChallenge.Server\\CodeChallenge.Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "codechallenge.client\\codechallenge.client.esproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
