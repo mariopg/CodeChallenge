@@ -23,3 +23,15 @@ Verify your installation:
 dotnet --version
 node --version
 npm --version
+
+## Running the Project in Visual Studio
+
+To start both the backend and frontend automatically in Visual Studio:
+
+1. Open the solution in Visual Studio.
+2. Right-click on the **solution** in Solution Explorer and select **Properties**.
+3. Go to **Common Properties → Startup Project**.
+4. Select **Multiple startup projects**.
+5. For each project (e.g., `codechallenge.client` and `codechallenge.Server`), set **Action** to **Start**.
+6. Click **OK**.
+7. Press **F5** or click **Start** to run both projects at the same time.
